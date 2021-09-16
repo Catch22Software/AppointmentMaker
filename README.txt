@@ -54,4 +54,6 @@ MySQL connector used: mysql-connector-java-8.0.26
 
 EXTRA: login_activity.txt is located in appointmentmaker.Utility/Logs
 
+TO switch to local defined mysql database, utiliize the SQL script within the backup folder and change the DataSource properties to the other properties file.
+
 
