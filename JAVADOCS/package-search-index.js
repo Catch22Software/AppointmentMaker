@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"appointmentmaker"},{"l":"appointmentmaker.controller"},{"l":"appointmentmaker.model"},{"l":"appointmentmaker.modeldao"},{"l":"appointmentmaker.utility"}]
