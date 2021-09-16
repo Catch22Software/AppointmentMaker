@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="852.0" prefWidth="1650.0"
+            xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="appointmentmaker.controller.RootViewController">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu fx:id="menufile" mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="menulogoff" mnemonicParsing="false" onAction="#handleLogOutAction" text="Log Out" />
+                        <MenuItem fx:id="menuclose" mnemonicParsing="false" onAction="#handleExitAction" text="Close" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menugoto" mnemonicParsing="false" text="GO TO">
+                    <items>
+                        <MenuItem  fx:id="menumain" mnemonicParsing="false" onAction="#handleMainScreenAction" text="Show Main Screen" />
+                        <MenuItem fx:id="menuappt" mnemonicParsing="false" onAction="#handleAppointmentScreenAction" text="Show Appointments" />
+                        <MenuItem fx:id="menucust" mnemonicParsing="false" onAction="#handleCustomerScreenAction" text="Show Customers" />
+                        <MenuItem fx:id="menureports" mnemonicParsing="false" onAction="#handleReportScreenAction" text="Show Reports" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menuhelp" mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem fx:id="menuabout" mnemonicParsing="false" onAction="#handleAboutPopUpAction" text="About this Program" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+
+</BorderPane>

@@ -1,0 +1,3 @@
+
+User: test has attempted to login successfully at 09/07/2021 - 20:26:15 TimeZone: America/New_York **SUCCESS** 
+User: admin has attempted to login successfully at 09/07/2021 - 20:35:06 TimeZone: America/New_York **SUCCESS** 
